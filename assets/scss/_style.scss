@@ -1,0 +1,29 @@
+*{margin: 0;
+padding: 0;}
+
+html{font-size: 62.5%;}
+
+// Deshabilitar el visor en vistas Mobile y Desktop
+.disNoMob{
+    @media only screen and (max-width: 767px){
+        display: none;
+    }
+}
+
+.disNoDesk{
+    @media only screen and (min-width:1024px){
+        display: none;
+    }
+}
+
+body{
+    margin: 10px;
+}
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.conteiner-fluid{
+    overflow: hidden;
+}
